@@ -1,0 +1,6 @@
+tg/ip/net/controllers/BienController.class
+tg/ip/net/web/beans/BienBean.class
+tg/ip/net/dk/digit/dao/BienDAO.class
+tg/ip/net/dk/digit/dao/IDAO.class
+tg/ip/net/dk/digit/dao/DAO.class
+tg/ip/net/dk/digit/dao/IBienDAO.class

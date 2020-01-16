@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h ="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    
+    
+    <head>
+        <title>list files</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div>list of the biens</div>
+        <h:dataTable value="#{bienBean.bien}" var ="b">
+            <h:column>
+                <f:facet name="libelle">Libelle</f:facet>
+                #{b.libelle}
+            </h:column>
+            <h:column>
+                <f:facet name ="description">Description</f:facet>
+                #{b.description}
+            </h:column>
+        </h:dataTable>          
+    </body>
+</html>

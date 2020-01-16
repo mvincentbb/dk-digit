@@ -1,0 +1,8 @@
+1/ creer des DAO (Data Access Objects) génériques afin d'évité de repeter les memes fonctions dans tous les DA0.
+Pour chaque class DAO il faudra créer une interface associée .
+ex : BienDAO et BienIDAO
+NB: Vous pouvez appelez les méthodes génériques :
+ IDAO et DAO => DAO implemente IDAO .
+  
+ Vous pouvez laisser vos questions dans ce fichier comme suit :
+   Nom : Date avec Heure : { Q1 : question1 , Q2: question2 }  
